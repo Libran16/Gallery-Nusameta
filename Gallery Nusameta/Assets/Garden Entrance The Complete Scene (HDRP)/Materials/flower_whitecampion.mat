@@ -25,8 +25,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: flower_whitecampion
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _DISABLE_SSR
@@ -49,7 +47,6 @@ Material:
   - MOTIONVECTORS
   - RayTracingPrepass
   - TransparentDepthPrepass
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -238,9 +235,9 @@ Material:
     - _StencilRefGBuffer: 2
     - _StencilRefMV: 32
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 9
-    - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 0.068
     - _SupportDecals: 1
     - _SurfaceType: 0
