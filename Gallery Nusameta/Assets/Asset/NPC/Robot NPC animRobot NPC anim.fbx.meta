@@ -44,7 +44,11 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Robot NPC anim' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'QuickRigCharacter2_LeftLeg' has translation
+      animation that will be discarded.\n\t'QuickRigCharacter2_RightLeg' has translation
+      animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -56,7 +60,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Robot NPC anim
+      takeName: Robot NPC anim
+      internalID: 2635785906325277449
+      firstFrame: 1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -104,8 +137,1824 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: QuickRigCharacter2_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: QuickRigCharacter2_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Robot NPC animRobot NPC anim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.0003072221, y: 0.07307723, z: -0.00008063868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface85
+      parentName: polySurface2
+      position: {x: 0.0003072221, y: -0.019154161, z: 0.00008063868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform107
+      parentName: polySurface85
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface86
+      parentName: polySurface2
+      position: {x: 0.0003072221, y: -0.019154161, z: 0.00008063868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform105
+      parentName: polySurface86
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface88
+      parentName: polySurface2
+      position: {x: 0.0003072221, y: -0.019154161, z: 0.00008063868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform106
+      parentName: polySurface88
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform104
+      parentName: polySurface2
+      position: {x: 0.0003072221, y: -0.019154161, z: 0.00008063868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface102
+      parentName: polySurface2
+      position: {x: -0.06152283, y: -0.019154161, z: 0.00008063868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform111
+      parentName: polySurface102
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube3
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.01502829, y: 0.045959968, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.68615407, y: 1.3829775, z: 0.68615407}
+    - name: transform2
+      parentName: pCube3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.011744645, y: 0.0480704, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1695717, y: 0.1695717, z: 0.1695717}
+    - name: transform1
+      parentName: pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0141965505, y: 0.046526637, z: 0.027333988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform8
+      parentName: pCube4
+      position: {x: -0.0141965505, y: -0.046526637, z: 0.00053701806}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube5
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.014454443, y: 0.029627956, z: 0.02856908}
+      rotation: {x: -0.026395256, y: 0, z: -0, w: 0.9996516}
+      scale: {x: 0.6295868, y: 0.9835841, z: 0.6295868}
+    - name: transform10
+      parentName: pCube5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder5
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.014832838, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 0.17726369, z: 1}
+    - name: transform6
+      parentName: pCylinder5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder6
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.014834542, y: 0.0044352273, z: -0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform5
+      parentName: pCylinder6
+      position: {x: 0.054194245, y: -0.0044352273, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder7
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0148328375, y: 0.03733447, z: 0.02795405}
+      rotation: {x: -0.047678538, y: 0, z: -0, w: 0.99886274}
+      scale: {x: 0.22797325, y: 0.22797325, z: 0.22797325}
+    - name: polySurface6
+      parentName: pCylinder7
+      position: {x: -0.0148328375, y: -0.0021109479, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform11
+      parentName: polySurface6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: pCylinder7
+      position: {x: -0.0148328375, y: -0.0021109479, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform9
+      parentName: polySurface7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform7
+      parentName: pCylinder7
+      position: {x: -0.0148328375, y: -0.0021109479, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0141965505, y: 0.044049285, z: 0.027333988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: polySurface7
+      position: {x: -0.0141965505, y: -0.044049285, z: -0.027333988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform14
+      parentName: polySurface8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface9
+      parentName: polySurface7
+      position: {x: -0.0141965505, y: -0.044049285, z: -0.027333988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform13
+      parentName: polySurface9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform12
+      parentName: polySurface7
+      position: {x: -0.0141965505, y: -0.044049285, z: -0.027333988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.018712854, y: 0.03065492, z: 0.0013502002}
+      rotation: {x: 0, y: -0.04254388, z: -0, w: 0.9990946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform26
+      parentName: polySurface6
+      position: {x: -0.015560749, y: -0.031929374, z: -0.028545737}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.018181086, y: 0.042883404, z: 0.00013845204}
+      rotation: {x: 0, y: -0.04254388, z: -0, w: 0.9990946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform23
+      parentName: polySurface8
+      position: {x: -0.01502898, y: -0.044157855, z: -0.027333988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder8
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.016241042, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 0.17726369, z: 1}
+    - name: transform16
+      parentName: pCylinder8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder9
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.01623934, y: 0.0044352273, z: -0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform15
+      parentName: pCylinder9
+      position: {x: 0.054194245, y: -0.0044352273, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder10
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.00014799595, y: 0.020768804, z: -0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.723059, y: 0.723059, z: 0.723059}
+    - name: transform18
+      parentName: pCylinder10
+      position: {x: 0.016241044, y: -0.0021109479, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere2
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform17
+      parentName: pSphere2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder11
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.012670655, y: 0.04814368, z: -0.0000000017881393}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 0.16226143, y: 0.16226143, z: 0.16226143}
+    - name: polySurface10
+      parentName: pCylinder11
+      position: {x: -0.0000000011920929, y: -0.011443459, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform20
+      parentName: polySurface10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface11
+      parentName: pCylinder11
+      position: {x: -0.0000000011920929, y: -0.011443459, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform22
+      parentName: polySurface11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface12
+      parentName: pCylinder11
+      position: {x: -0.0000000011920929, y: -0.011443459, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform21
+      parentName: polySurface12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform19
+      parentName: pCylinder11
+      position: {x: -0.0000000011920929, y: -0.011443459, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface12
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.012150292, y: 0.048143677, z: -0.0000000020116566}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform25
+      parentName: polySurface12
+      position: {x: -0.012150292, y: -0.048143677, z: 0.0000000020116566}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface13
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.017285477, y: 0.042883404, z: 0.00013845286}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform27
+      parentName: polySurface13
+      position: {x: -0.017285477, y: -0.042883404, z: -0.00013845286}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface18
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.016244002, y: 0.03787693, z: 0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface19
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform29
+      parentName: polySurface19
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface20
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform30
+      parentName: polySurface20
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface21
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform31
+      parentName: polySurface21
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface22
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform33
+      parentName: polySurface22
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface23
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform32
+      parentName: polySurface23
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface25
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform36
+      parentName: polySurface25
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface26
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform37
+      parentName: polySurface26
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface27
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform38
+      parentName: polySurface27
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface28
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform34
+      parentName: polySurface28
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface29
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform35
+      parentName: polySurface29
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform28
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.03787693, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface61
+      parentName: polySurface18
+      position: {x: -0.016244002, y: -0.009038016, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform98
+      parentName: polySurface61
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface100
+      parentName: polySurface18
+      position: {x: -0.07807405, y: -0.009038016, z: -0.00092494715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform118
+      parentName: polySurface100
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface22
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.018807497, y: 0.059413407, z: 0.0016300367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform97
+      parentName: polySurface22
+      position: {x: -0.018807497, y: -0.030574493, z: -0.0016300367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface26
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.018340254, y: 0.042883404, z: 0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform39
+      parentName: polySurface26
+      position: {x: 0.018340254, y: -0.042883404, z: -0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere3
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0, y: 0.019188955, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform44
+      parentName: pSphere3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere4
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0073315147, y: 0.009520027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.61586654, y: 0.61586654, z: 0.61586654}
+    - name: polySurface32
+      parentName: pSphere4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform41
+      parentName: polySurface32
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface33
+      parentName: pSphere4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform42
+      parentName: polySurface33
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform40
+      parentName: pSphere4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface33
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.00003083253, y: 0.009520026, z: -0.0000000011012552}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform43
+      parentName: polySurface33
+      position: {x: 0.00003083253, y: -0.009520026, z: 0.0000000011012552}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface34
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.00003083253, y: 0.009520026, z: -0.0000000011012552}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.97187996, y: 0.97187996, z: 0.97187996}
+    - name: polySurface36
+      parentName: polySurface34
+      position: {x: 0.007362347, y: 0.008859899, z: -0.0014967131}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8791385, y: 0.8791385, z: 0.8791385}
+    - name: transform51
+      parentName: polySurface36
+      position: {x: -0.0073315143, y: -0.009520026, z: 0.0000000011920929}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform45
+      parentName: polySurface34
+      position: {x: 0.00003083253, y: -0.009520026, z: 0.0000000011012552}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder12
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0070750136, y: 0.009169989, z: -0.0014648113}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.21885797, y: 0.39613274, z: 0.21885797}
+    - name: transform52
+      parentName: pCylinder12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder13
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.007402171, y: 0.013509844, z: -0.0014546266}
+      rotation: {x: 0, y: 0, z: 0.08894886, w: 0.9960362}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface38
+      parentName: pCylinder13
+      position: {x: -0.0018341243, y: 0.013523563, z: 0.0014546266}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.1291479, z: 1}
+    - name: transform57
+      parentName: polySurface38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface39
+      parentName: pCylinder13
+      position: {x: -0.0020144437, y: 0.014872731, z: 0.0014546266}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform59
+      parentName: polySurface39
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform53
+      parentName: pCylinder13
+      position: {x: -0.007124485, y: -0.013509844, z: 0.0014546266}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder14
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0101288175, y: 0.01509776, z: -0.057113227}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 0.17726369, z: 1}
+    - name: transform55
+      parentName: pCylinder14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder15
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.01013052, y: 0.019532988, z: -0.057113227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform54
+      parentName: pCylinder15
+      position: {x: 0.054194245, y: -0.0044352273, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder16
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.009784309, y: 0.029897422, z: -0.0015169858}
+      rotation: {x: 0, y: 0, z: 0.08156696, w: 0.99666786}
+      scale: {x: 0.18819182, y: 0.18819182, z: 0.18819182}
+    - name: polySurface40
+      parentName: pCylinder16
+      position: {x: -0.010128815, y: -0.017208708, z: 0.057113227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform61
+      parentName: polySurface40
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface41
+      parentName: pCylinder16
+      position: {x: -0.010128815, y: -0.017208708, z: 0.057113227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform58
+      parentName: polySurface41
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform56
+      parentName: pCylinder16
+      position: {x: -0.010128815, y: -0.017208708, z: 0.057113227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface41
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.008329154, y: 0.03511848, z: -0.0014648117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform60
+      parentName: polySurface41
+      position: {x: -0.008329154, y: -0.03511848, z: 0.0014648117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface42
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0065833735, y: 0.039833, z: -0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform62
+      parentName: polySurface42
+      position: {x: -0.0065833735, y: -0.039833, z: 0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface43
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0063809417, y: 0.039398205, z: -0.0014546269}
+      rotation: {x: 0, y: -0, z: -0.022800582, w: 0.99974006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface44
+      parentName: polySurface43
+      position: {x: -0.0077430466, y: -0.00089939096, z: 0}
+      rotation: {x: 0, y: -0, z: -0.065529816, w: 0.9978506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform71
+      parentName: polySurface44
+      position: {x: -0.0065833726, y: -0.039833, z: 0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface45
+      parentName: polySurface43
+      position: {x: -0.0058904933, y: -0.012005751, z: -0.00006236345}
+      rotation: {x: 0, y: -0, z: -0.05599214, w: 0.9984312}
+      scale: {x: 0.990476, y: 0.990476, z: 0.990476}
+    - name: transform72
+      parentName: polySurface45
+      position: {x: -0.009848899, y: -0.029073853, z: 0.0015169904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform63
+      parentName: polySurface43
+      position: {x: -0.0065833735, y: -0.039398205, z: 0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube6
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.0385523, y: 0.32465342, z: 2.468036}
+    - name: transform67
+      parentName: pCube6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube7
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.0059905043, y: 0, z: 0.020673674}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.72400874, y: 0.26504326, z: 1.493906}
+    - name: transform64
+      parentName: pCube7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube8
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0008913142, y: 0, z: 0.018320084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5473089, y: 0.21599112, z: 1.037108}
+    - name: transform65
+      parentName: pCube8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube9
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.006568522, y: 0, z: 0.018320084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5473089, y: 0.21599112, z: 1.037108}
+    - name: transform66
+      parentName: pCube9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube10
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.00015274057, y: 0, z: 0.019753672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform68
+      parentName: pCube10
+      position: {x: 0.00015274057, y: 0, z: -0.019753672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube11
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0099908, y: -0.0044486686, z: 0.007901511}
+      rotation: {x: 0, y: -0, z: -0.000042876094, w: 1}
+      scale: {x: 0.3149433, y: 0.3149433, z: 0.3149433}
+    - name: transform70
+      parentName: pCube11
+      position: {x: -0, y: 0, z: -0.007901511}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube12
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.009941829, y: 0.0033949073, z: 0.0054929894}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5319613, y: 1, z: 0.6422448}
+    - name: transform69
+      parentName: pCube12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube13
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.007088644, y: 0.013482303, z: 0.0012630629}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform74
+      parentName: pCube13
+      position: {x: -0.009990822, y: 0.00014544193, z: -0.0077546365}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface45
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.0055867312, y: 0.039540954, z: -0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface46
+      parentName: polySurface45
+      position: {x: 0.0013950566, y: -0.038565066, z: 0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform75
+      parentName: polySurface46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface47
+      parentName: polySurface45
+      position: {x: 0.0013950566, y: -0.038565066, z: 0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform77
+      parentName: polySurface47
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform73
+      parentName: polySurface45
+      position: {x: 0.0013950566, y: -0.038565066, z: 0.0014546269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface46
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.007088622, y: 0.019802472, z: 0.0012630626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform76
+      parentName: polySurface46
+      position: {x: -0.007088622, y: -0.019802472, z: -0.0012630626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface47
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.00682879, y: 0.030355891, z: 0.00053411303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface48
+      parentName: polySurface47
+      position: {x: -0.00682879, y: -0.030355891, z: -0.00053411303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform82
+      parentName: polySurface48
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface49
+      parentName: polySurface47
+      position: {x: -0.00682879, y: -0.030355891, z: -0.00053411303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform79
+      parentName: polySurface49
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface51
+      parentName: polySurface47
+      position: {x: -0.00682879, y: -0.030355891, z: -0.00053411303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform80
+      parentName: polySurface51
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform78
+      parentName: polySurface47
+      position: {x: -0.00682879, y: -0.030355891, z: -0.00053411303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface51
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.000013888478, y: 0.019802472, z: 0.0012630626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface53
+      parentName: polySurface51
+      position: {x: 0.007000896, y: -0.0013189184, z: 2.9802322e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform83
+      parentName: polySurface53
+      position: {x: -0.0070578465, y: -0.018483553, z: -0.0012630629}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform81
+      parentName: polySurface51
+      position: {x: -0.000013888478, y: -0.019802472, z: -0.0012630626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface53
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.00682879, y: 0.027653906, z: 0.0018755022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform84
+      parentName: polySurface53
+      position: {x: -0.00682879, y: -0.027653906, z: -0.0018755022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface91
+      parentName: polySurface53
+      position: {x: -0.06865884, y: -0.027653906, z: -0.0018755022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform120
+      parentName: polySurface91
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface92
+      parentName: polySurface53
+      position: {x: -0.06865884, y: -0.027653906, z: -0.0018755022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform121
+      parentName: polySurface92
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface93
+      parentName: polySurface53
+      position: {x: -0.06865884, y: -0.027653906, z: -0.0018755022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform122
+      parentName: polySurface93
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface94
+      parentName: polySurface53
+      position: {x: -0.06865884, y: -0.027653906, z: -0.0018755022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform123
+      parentName: polySurface94
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube14
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.062588565, y: 0, z: -0.0011530753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.37786952, y: 0.12565151, z: 0.5170691}
+    - name: transform88
+      parentName: pCube14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube15
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.05507091, y: 0, z: -0.0011530753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8876127, y: 0.12565151, z: 0.5170691}
+    - name: transform86
+      parentName: pCube15
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube16
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.05507091, y: 0, z: -0.008388198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8876127, y: 0.12565151, z: 0.7811709}
+    - name: transform85
+      parentName: pCube16
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube17
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.062588565, y: 0, z: -0.008388198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.37786952, y: 0.12565151, z: 0.7811709}
+    - name: transform87
+      parentName: pCube17
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube18
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.05507091, y: 0, z: -0.005430891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform94
+      parentName: pCube18
+      position: {x: -0.05507091, y: 0, z: 0.005430891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube19
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.062588565, y: 0, z: -0.005430891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform90
+      parentName: pCube19
+      position: {x: -0.062588565, y: 0, z: 0.005430891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube20
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.062021963, y: -0.0035623726, z: -0.0036955178}
+      rotation: {x: -1.357126e-17, y: 0.2216355, z: 0.9751296, w: -5.9709463e-17}
+      scale: {x: 1.2195749, y: 1, z: 0.84209585}
+    - name: transform89
+      parentName: pCube20
+      position: {x: -0.062588565, y: 0, z: 0.005430891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder17
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.057549477, y: -0.00055492774, z: 0.0021544253}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.12741482, y: 0.6922612, z: 0.12741482}
+    - name: transform91
+      parentName: pCylinder17
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube21
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.057462286, y: 0.001493314, z: 0.002090584}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.5895969, y: 0.2139044, z: 1.0258621}
+    - name: transform92
+      parentName: pCube21
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube22
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.057402615, y: -0.0009849587, z: 0.011288418}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.6152469, y: 0.6152469, z: 1.9936198}
+    - name: transform93
+      parentName: pCube22
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube23
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.057462286, y: -0.0020374793, z: 0.004466474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform95
+      parentName: pCube23
+      position: {x: -0.057462286, y: 0.0020374793, z: -0.004466474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube24
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.018624512, y: 0.04368295, z: 0.0009808596}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 0.49556103, y: 0.49556103, z: 0.49556103}
+    - name: transform96
+      parentName: pCube24
+      position: {x: -0.057462286, y: 0.0011181055, z: -0.0044664745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface59
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.017238779, y: 0.07172232, z: 0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform100
+      parentName: polySurface59
+      position: {x: -0.017238779, y: -0.042883404, z: -0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface60
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.018807497, y: 0.051025856, z: 0.001346989}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform99
+      parentName: polySurface60
+      position: {x: -0.018807497, y: -0.051025856, z: -0.001346989}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface62
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: 0.01621326, y: 0.060354356, z: 0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface74
+      parentName: polySurface62
+      position: {x: -0.01621326, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform103
+      parentName: polySurface74
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface75
+      parentName: polySurface62
+      position: {x: -0.01621326, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform102
+      parentName: polySurface75
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform101
+      parentName: polySurface62
+      position: {x: -0.01621326, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface95
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform125
+      parentName: polySurface95
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface96
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform124
+      parentName: polySurface96
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface97
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform115
+      parentName: polySurface97
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface98
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform116
+      parentName: polySurface98
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface103
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform110
+      parentName: polySurface103
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface104
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform112
+      parentName: polySurface104
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface105
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform109
+      parentName: polySurface105
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface106
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform130
+      parentName: polySurface106
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface107
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform137
+      parentName: polySurface107
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface108
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform131
+      parentName: polySurface108
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface109
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform133
+      parentName: polySurface109
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface110
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform132
+      parentName: polySurface110
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface111
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform134
+      parentName: polySurface111
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface112
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform127
+      parentName: polySurface112
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface113
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform135
+      parentName: polySurface113
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface114
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform136
+      parentName: polySurface114
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface115
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform128
+      parentName: polySurface115
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface116
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform129
+      parentName: polySurface116
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface117
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform113
+      parentName: polySurface117
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface118
+      parentName: polySurface62
+      position: {x: -0.07804331, y: -0.060354356, z: -0.00096858677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform114
+      parentName: polySurface118
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface89
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.06183163, y: 0.077991314, z: -0.00008063853}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform138
+      parentName: polySurface89
+      position: {x: 0.0000015801191, y: -0.077991314, z: 0.00008063853}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface90
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.061977547, y: 0.09105333, z: 0.01099661}
+      rotation: {x: 0.06618552, y: -0, z: -0, w: 0.9978073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform139
+      parentName: polySurface90
+      position: {x: 0.00014749702, y: -0.037950754, z: -0.011606717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere6
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.06183005, y: 0.050758813, z: -0.0014558296}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform126
+      parentName: pSphere6
+      position: {x: -0.0000000011920929, y: -0.014188956, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface99
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.044591274, y: 0.07172232, z: 0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform117
+      parentName: polySurface99
+      position: {x: -0.017238779, y: -0.042883404, z: -0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube25
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.06183005, y: 0.09199037, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.1694431, y: 1.8920722, z: 1.8920722}
+    - name: transform119
+      parentName: pCube25
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface101
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.07881611, y: 0.0740911, z: 0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform108
+      parentName: polySurface101
+      position: {x: 0.016986055, y: -0.0740911, z: -0.00010170221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface119
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Reference
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.06170369, y: 0.003263592, z: -0.0035811742}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Hips
+      parentName: QuickRigCharacter2_Reference
+      position: {x: 0.06170369, y: 0.040509745, z: 0.0025435947}
+      rotation: {x: 0.49749404, y: -0.5024934, z: -0.49749404, w: 0.50249344}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000006}
+    - name: QuickRigCharacter2_LeftUpLeg
+      parentName: QuickRigCharacter2_Hips
+      position: {x: 0.00054526643, y: -0.000022027716, z: 0.0058119628}
+      rotation: {x: 0.018222423, y: 0.0051190113, z: -0.99969226, w: 0.01603535}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: QuickRigCharacter2_LeftLeg
+      parentName: QuickRigCharacter2_LeftUpLeg
+      position: {x: -0.017229795, y: 0.000000019637772, z: 7.467144e-10}
+      rotation: {x: -0.020880109, y: 0.0011013934, z: 0.05262358, w: -0.9983955}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: QuickRigCharacter2_LeftFoot
+      parentName: QuickRigCharacter2_LeftLeg
+      position: {x: -0.020175273, y: 0.0000000069034485, z: -0.00000001121233}
+      rotation: {x: -0.0025066212, y: -0.072113015, z: 0.25087395, w: 0.9653267}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: QuickRigCharacter2_LeftToeBase
+      parentName: QuickRigCharacter2_LeftFoot
+      position: {x: -0.0051752226, y: 6.288397e-11, z: 0.0000000024775035}
+      rotation: {x: -0, y: -0, z: 0.0000000059808376, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: QuickRigCharacter2_RightUpLeg
+      parentName: QuickRigCharacter2_Hips
+      position: {x: 0.00054526486, y: -0.000022027585, z: -0.0058119614}
+      rotation: {x: -0.005120814, y: 0.018222198, z: 0.01602526, w: 0.99969244}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000004}
+    - name: QuickRigCharacter2_RightLeg
+      parentName: QuickRigCharacter2_RightUpLeg
+      position: {x: 0.017229777, y: 0.0000035275718, z: 0.0000008151403}
+      rotation: {x: 0.020886289, y: -0.0011006502, z: -0.052610394, w: 0.9983961}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: QuickRigCharacter2_RightFoot
+      parentName: QuickRigCharacter2_RightLeg
+      position: {x: 0.020175278, y: 0.0000000012819616, z: -0.0000000014562711}
+      rotation: {x: -0.0025116114, y: -0.072112225, z: 0.25087076, w: 0.9653276}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: QuickRigCharacter2_RightToeBase
+      parentName: QuickRigCharacter2_RightFoot
+      position: {x: 0.005175217, y: -0.0000000016374775, z: -0.0000000011289857}
+      rotation: {x: 0.000025470974, y: 0.000000007450581, z: 0.000000111205736, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: QuickRigCharacter2_Spine
+      parentName: QuickRigCharacter2_Hips
+      position: {x: -0.0052601537, y: 7.4009077e-10, z: 0.0000000013344853}
+      rotation: {x: -0.000000029802326, y: 0.000000029802326, z: 0.033924688, w: -0.9994244}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: QuickRigCharacter2_Spine1
+      parentName: QuickRigCharacter2_Spine
+      position: {x: -0.005244509, y: 4.0222126e-10, z: -7.8402507e-10}
+      rotation: {x: -0, y: -0, z: 8.881786e-16, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: QuickRigCharacter2_Spine2
+      parentName: QuickRigCharacter2_Spine1
+      position: {x: -0.0052445135, y: -9.664315e-11, z: -7.840172e-10}
+      rotation: {x: -3.154259e-10, y: -3.4133407e-10, z: -0.011027038, w: 0.99993926}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: QuickRigCharacter2_LeftShoulder
+      parentName: QuickRigCharacter2_Spine2
+      position: {x: -0.011292261, y: 0.000023544237, z: 0.006612372}
+      rotation: {x: 0.51957506, y: -0.47962666, z: -0.5195751, w: -0.47962666}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: QuickRigCharacter2_LeftArm
+      parentName: QuickRigCharacter2_LeftShoulder
+      position: {x: -0.009918561, y: -0.00000000213462, z: -2.8047287e-10}
+      rotation: {x: 0.7231475, y: 0.00537163, z: 0.0046553314, w: 0.6906571}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: QuickRigCharacter2_LeftForeArm
+      parentName: QuickRigCharacter2_LeftArm
+      position: {x: -0.014171406, y: 4.5814533e-11, z: -0.0000000017490199}
+      rotation: {x: -0.000118643045, y: -0.002081855, z: -0.03976524, w: 0.99920684}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: QuickRigCharacter2_LeftHand
+      parentName: QuickRigCharacter2_LeftForeArm
+      position: {x: -0.011109676, y: 0.0000000011739671, z: -0.000000004527294}
+      rotation: {x: -0.00000013371537, y: 0.0000013058277, z: -0.0000000670544, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: QuickRigCharacter2_RightShoulder
+      parentName: QuickRigCharacter2_Spine2
+      position: {x: -0.011292259, y: 0.00002354474, z: -0.0066123772}
+      rotation: {x: -0.4796267, y: -0.51957506, z: 0.47962666, w: -0.5195751}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: QuickRigCharacter2_RightArm
+      parentName: QuickRigCharacter2_RightShoulder
+      position: {x: 0.009918561, y: -0.0000000021346203, z: -2.4321997e-10}
+      rotation: {x: -0.72314614, y: -0.0053717173, z: -0.00465566, w: -0.69065857}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: QuickRigCharacter2_RightForeArm
+      parentName: QuickRigCharacter2_RightArm
+      position: {x: 0.0141714215, y: -0.0000000037083583, z: 0.000000010981192}
+      rotation: {x: -0.00011795756, y: -0.0020818477, z: -0.039765205, w: 0.99920684}
+      scale: {x: 0.9999998, y: 0.9999997, z: 1}
+    - name: QuickRigCharacter2_RightHand
+      parentName: QuickRigCharacter2_RightForeArm
+      position: {x: 0.011109664, y: -9.733147e-10, z: -0.000000011536542}
+      rotation: {x: -0.000000029270609, y: 0.0000010430963, z: -0.000000052154093, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: QuickRigCharacter2_Neck
+      parentName: QuickRigCharacter2_Spine2
+      position: {x: -0.013757269, y: -4.4682352e-10, z: -8.4205437e-10}
+      rotation: {x: -0.000000027912463, y: -0.000000030552542, z: 0.018120691, w: 0.99983585}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: QuickRigCharacter2_Head
+      parentName: QuickRigCharacter2_Neck
+      position: {x: -0.008748932, y: 9.6840765e-11, z: 2.7616687e-10}
+      rotation: {x: -0, y: -0, z: -8.5279664e-16, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: QuickRigCharacter2_Ctrl_Reference
+      parentName: Robot NPC animRobot NPC anim(Clone)
+      position: {x: -0.06170369, y: 0.003263592, z: -0.002370281}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_HipsEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.000024057626, y: 0.03715355, z: 0.0013158699}
+      rotation: {x: 0.00033226787, y: -0.017109873, z: 0.0051320666, w: 0.99984044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftAnkleEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.007155391, y: 0.006341379, z: -0.012907489}
+      rotation: {x: 0.0075987843, y: 0.026759129, z: 0.054391086, w: 0.99813217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightAnkleEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.0071554645, y: 0.006034756, z: 0.01658836}
+      rotation: {x: 0.007599628, y: -0.026766876, z: -0.05440769, w: 0.99813104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftWristEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.019258337, y: 0.039703067, z: 0.005273852}
+      rotation: {x: -0.020581009, y: 0.08960458, z: 0.6654472, w: 0.74076146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightWristEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.019093417, y: 0.03970301, z: 0.005273879}
+      rotation: {x: -0.020581072, y: -0.08960376, z: -0.66544867, w: 0.7407602}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftKneeEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.0069078645, y: 0.01992106, z: 0.002011386}
+      rotation: {x: 0.40429837, y: 0.015914725, z: 0.00032795878, w: 0.9144887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightKneeEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.0062055863, y: 0.026096297, z: 0.0146716405}
+      rotation: {x: -0.0471643, y: -0.016852759, z: 0.024373442, w: 0.99844754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftElbowEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.018166248, y: 0.050614852, z: 0.0034947144}
+      rotation: {x: -0.020581141, y: 0.08960485, z: 0.6654477, w: 0.7407609}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightElbowEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.018001279, y: 0.050614774, z: 0.003494758}
+      rotation: {x: -0.020581331, y: -0.08960372, z: -0.6654459, w: 0.74076265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_ChestOriginEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.00008247018, y: 0.04295862, z: 0.0012827095}
+      rotation: {x: -0.000004206056, y: 0.000000049196995, z: -0.0000008450507, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_ChestEndEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.000082427265, y: 0.06468444, z: 0.0028140857}
+      rotation: {x: -0.000004206056, y: 0.000000067582214, z: -0.000000843887, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftFootEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.006529151, y: 0.0016977193, z: -0.010710409}
+      rotation: {x: 0.0075987843, y: 0.026759129, z: 0.05439109, w: 0.99813217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightFootEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.006529225, y: 0.0013910901, z: 0.018785434}
+      rotation: {x: 0.007599628, y: -0.026766876, z: -0.054407686, w: 0.99813104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftShoulderEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.016613364, y: 0.064684466, z: 0.0028140878}
+      rotation: {x: 0.017109493, y: 0.04754101, z: 0.66554534, w: 0.74464524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightShoulderEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.016448505, y: 0.06468441, z: 0.0028140836}
+      rotation: {x: 0.017108405, y: -0.04754266, z: -0.665548, w: 0.7446428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_HeadEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.00008241295, y: 0.07588405, z: 0.0033692976}
+      rotation: {x: -0.000004206056, y: 0.0000000010982711, z: -0.0000008442435, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftHipEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.0058323108, y: 0.037093967, z: 0.0011169978}
+      rotation: {x: -0.026548894, y: -0.01844593, z: -0.030752962, w: 0.9990041}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightHipEffector
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: 0.0057841954, y: 0.037213128, z: 0.0015147419}
+      rotation: {x: -0.4205133, y: -0.014065683, z: 0.020067807, w: 0.90695536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_Hips
+      parentName: QuickRigCharacter2_Ctrl_Reference
+      position: {x: -0.000030227899, y: 0.037698966, z: 0.0013327014}
+      rotation: {x: 0.00033226787, y: -0.017109873, z: 0.0051320666, w: 0.99984044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftUpLeg
+      parentName: QuickRigCharacter2_Ctrl_Hips
+      position: {x: -0.005811958, y: -0.0005454588, z: -0.000016574859}
+      rotation: {x: -0.02749744, y: -0.0012241197, z: -0.035414636, w: 0.99899364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftLeg
+      parentName: QuickRigCharacter2_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.017229771, z: 0}
+      rotation: {x: 0.42769098, y: 0.04519213, z: 0.021415725, w: 0.90254056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftFoot
+      parentName: QuickRigCharacter2_Ctrl_LeftLeg
+      position: {x: -0, y: -0.020175256, z: 0}
+      rotation: {x: -0.39745107, y: 0.030573659, z: 0.03871495, w: 0.9162964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftToeBase
+      parentName: QuickRigCharacter2_Ctrl_LeftFoot
+      position: {x: -0.0000000047683715, y: -0.004643663, z: 0.0022845708}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightUpLeg
+      parentName: QuickRigCharacter2_Ctrl_Hips
+      position: {x: 0.0058119628, y: -0.0005454588, z: -0.000016574859}
+      rotation: {x: -0.4204764, y: 0.0036192203, z: 0.022609655, w: 0.90701455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightLeg
+      parentName: QuickRigCharacter2_Ctrl_RightUpLeg
+      position: {x: 8.881784e-18, y: -0.017229771, z: 0.00000016853213}
+      rotation: {x: 0.3770892, y: -0.010543728, z: -0.004354441, w: 0.92610675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightFoot
+      parentName: QuickRigCharacter2_Ctrl_RightLeg
+      position: {x: 8.881784e-18, y: -0.020175256, z: 0}
+      rotation: {x: 0.053094655, y: -0.0075231865, z: -0.080041625, w: 0.99534804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightToeBase
+      parentName: QuickRigCharacter2_Ctrl_RightFoot
+      position: {x: 0.00000019073485, y: -0.004643663, z: 0.0022845708}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_Spine
+      parentName: QuickRigCharacter2_Ctrl_Hips
+      position: {x: -0, y: 0.0052598906, z: -0.000052593798}
+      rotation: {x: -0.00033648734, y: 0.017109957, z: -0.0051328386, w: 0.99984044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_Spine1
+      parentName: QuickRigCharacter2_Ctrl_Spine
+      position: {x: -0, y: 0.005235734, z: 0.0003032969}
+      rotation: {x: -1.6012349e-32, y: 5.862853e-17, z: -1.6323026e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_Spine2
+      parentName: QuickRigCharacter2_Ctrl_Spine1
+      position: {x: -0, y: 0.005235734, z: 0.00030329695}
+      rotation: {x: 9.7144515e-17, y: 8.7432594e-17, z: -1.5970884e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftShoulder
+      parentName: QuickRigCharacter2_Ctrl_Spine2
+      position: {x: -0.006612372, y: 0.011254339, z: 0.0009249652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftArm
+      parentName: QuickRigCharacter2_Ctrl_LeftShoulder
+      position: {x: -0.009918561, y: 0, z: 8.673617e-21}
+      rotation: {x: 0.017112544, y: 0.04753818, z: 0.66554624, w: 0.7446446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftForeArm
+      parentName: QuickRigCharacter2_Ctrl_LeftArm
+      position: {x: -0.014171409, y: 0, z: 0}
+      rotation: {x: 0.00000033914768, y: 0.05659047, z: 0.0000009550331, w: 0.99839747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_LeftHand
+      parentName: QuickRigCharacter2_Ctrl_LeftForeArm
+      position: {x: -0.011109676, y: 0, z: 0}
+      rotation: {x: -2.4918953e-13, y: -0.0000003356154, z: -0.00000074235845, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightShoulder
+      parentName: QuickRigCharacter2_Ctrl_Spine2
+      position: {x: 0.0066123772, y: 0.011254339, z: 0.0009249652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightArm
+      parentName: QuickRigCharacter2_Ctrl_RightShoulder
+      position: {x: 0.009918561, y: 0, z: 0}
+      rotation: {x: 0.017111618, y: -0.04753988, z: -0.66554767, w: 0.7446433}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightForeArm
+      parentName: QuickRigCharacter2_Ctrl_RightArm
+      position: {x: 0.014171409, y: -0.0000000047683715, z: 0}
+      rotation: {x: -0.0000005219724, y: -0.056587517, z: 0.000005091846, w: 0.99839765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_RightHand
+      parentName: QuickRigCharacter2_Ctrl_RightForeArm
+      position: {x: 0.01110967, y: 0, z: 8.673617e-21}
+      rotation: {x: -0.000000045761627, y: 1.6857281e-13, z: -0.0000036823774, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_Neck
+      parentName: QuickRigCharacter2_Ctrl_Spine2
+      position: {x: 8.881784e-18, y: 0.01371336, z: 0.0010982847}
+      rotation: {x: -1.179612e-16, y: -3.6977855e-32, z: 2.4651903e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter2_Ctrl_Head
+      parentName: QuickRigCharacter2_Ctrl_Neck
+      position: {x: -0, y: 0.008740587, z: 0.0003819863}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
