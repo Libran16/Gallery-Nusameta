@@ -62619,9 +62619,9 @@ GameObject:
   - component: {fileID: 1836050068532042928}
   - component: {fileID: 7371711095388057823}
   - component: {fileID: 8982114968506196693}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pCylinder6
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
