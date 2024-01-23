@@ -30,7 +30,7 @@ public class Dialoguemanager : MonoBehaviour
     void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if(distance <= 2.5f)
+        if(distance <= 3.5f)
         {
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {

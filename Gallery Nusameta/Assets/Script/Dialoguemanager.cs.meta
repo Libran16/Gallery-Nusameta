@@ -3,7 +3,13 @@ guid: c7082dbff716e7347821f3e5574cdebd
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - npc: {fileID: 11400000, guid: 359ad6158a9356849b861434cd2827f1, type: 2}
+  - player: {instanceID: 0}
+  - dialogueUI: {instanceID: 0}
+  - npcName: {instanceID: 0}
+  - npcDialogue: {instanceID: 0}
+  - playerResponse: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
