@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca22fcad235e34449e6531aa29477cb, type: 3}
+  m_Name: NPCMini
+  m_EditorClassIdentifier: 
+  name: NusaBot
+  dialogue:
+  - Hello, how i can help you?
+  - it's the latest MINI car "Cooper"
+  - Even it's an Electric car it has 136 to 231 Horse Power
+  - it cost starts at 915 Million dollar
+  - 'it comes with 7 different color! '
+  - for ETA 2 month max delivery from our garage
+  - You're welcome
+  playerDialogue:
+  - what type is this car?
+  - I Would like to know how much Horse Power it has?
+  - How much does it cost?
+  - 'what any color does it comes? '
+  - how long does it takes to pre-order?
+  - Okay, thank you

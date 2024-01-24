@@ -30,7 +30,7 @@ public class Dialoguemanager : MonoBehaviour
     void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if(distance <= 3.5f)
+        if(distance <= 4.7f)
         {
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
@@ -81,6 +81,38 @@ public class Dialoguemanager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
                     npcDialogue.text = npc.dialogue[3];
+                }
+            }
+            else if (curResponseTracker == 3 && npc.playerDialogue.Length >= 3 )
+            {
+                playerResponse.text = npc.playerDialogue[3];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    npcDialogue.text = npc.dialogue[4];
+                }
+            }
+            else if (curResponseTracker == 4 && npc.playerDialogue.Length >= 4 )
+            {
+                playerResponse.text = npc.playerDialogue[4];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    npcDialogue.text = npc.dialogue[5];
+                }
+            }
+            else if (curResponseTracker == 5 && npc.playerDialogue.Length >= 5 )
+            {
+                playerResponse.text = npc.playerDialogue[5];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    npcDialogue.text = npc.dialogue[6];
+                }
+            }
+            else if (curResponseTracker == 6 && npc.playerDialogue.Length >= 6 )
+            {
+                playerResponse.text = npc.playerDialogue[6];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    npcDialogue.text = npc.dialogue[7];
                 }
             }
         }

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca22fcad235e34449e6531aa29477cb, type: 3}
+  m_Name: NPCBMW
+  m_EditorClassIdentifier: 
+  name: NusaBot
+  dialogue:
+  - Hello, how i can help you?
+  - it's latest BMW car "I4"
+  - Even it's an Electric car it has 340 Horse Power
+  - 'it cost 2,7 billion dollar, and we don''t use QRIS Payment '
+  - 'it comes with 13 different color! '
+  - you can pre-order any color you want!
+  - for ETA 4 month delivery from german
+  - You're welcome
+  playerDialogue:
+  - I Would like to know what is this type?
+  - I Would like to know how much Horse Power it has?
+  - How much does it cost?
+  - 'what any color does it comes? '
+  - what if i want the other color?
+  - how long does it takes to pre-order?
+  - Okay, thank you
