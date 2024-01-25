@@ -85,8 +85,8 @@ MonoBehaviour:
   shaderVariantLogLevel: 0
   lensAttenuationMode: 0
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: d09f7b6043d017c46964bd6ac172ac0d, type: 2}
-  - {fileID: 11400000, guid: 74a7cbccd9e25d142be08eaf4735eb35, type: 2}
+  - {fileID: 11400000, guid: 2e93abf7c91c4b645b7aed5c1f7d6269, type: 2}
+  - {fileID: 11400000, guid: 4d66ea930f09f624a862cada42433356, type: 2}
   rendererListCulling: 0
   DLSSProjectId: 000000
   useDLSSCustomProjectId: 0
