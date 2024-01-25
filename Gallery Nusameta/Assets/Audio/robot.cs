@@ -15,9 +15,9 @@ public class robot : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if(distance <= 4.7f)
+        if(distance <= 4.0f)
         {
-                if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return) && !audioPlayed)
+                if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.Mouse0) && !audioPlayed)
             {
                 BeepSound.Play();
                 audioPlayed = true;

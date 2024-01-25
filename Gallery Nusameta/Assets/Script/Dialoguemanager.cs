@@ -30,7 +30,7 @@ public class Dialoguemanager : MonoBehaviour
     void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if(distance <= 4.7f)
+        if(distance <= 4.0f)
         {
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
@@ -50,11 +50,11 @@ public class Dialoguemanager : MonoBehaviour
             }
 
             //trigger dialogue
-            if (Input.GetKeyDown(KeyCode.E) && isTalking == false)
+            if (Input.GetKeyDown(KeyCode.Mouse1) && isTalking == false)
             {
                 StartConversation();
             }
-            else if (Input.GetKeyDown(KeyCode.E) && isTalking == true)
+            else if (Input.GetKeyDown(KeyCode.Mouse1) && isTalking == true)
             {
                 EndDialogue();
             }
@@ -62,7 +62,7 @@ public class Dialoguemanager : MonoBehaviour
             if (curResponseTracker == 0 && npc.playerDialogue.Length >= 0)
             {
                 playerResponse.text = npc.playerDialogue[0];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[1];
                 }
@@ -70,7 +70,7 @@ public class Dialoguemanager : MonoBehaviour
             else if (curResponseTracker == 1 && npc.playerDialogue.Length >= 1 )
             {
                 playerResponse.text = npc.playerDialogue[1];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[2];
                 }
@@ -78,7 +78,7 @@ public class Dialoguemanager : MonoBehaviour
             else if (curResponseTracker == 2 && npc.playerDialogue.Length >= 2 )
             {
                 playerResponse.text = npc.playerDialogue[2];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[3];
                 }
@@ -86,7 +86,7 @@ public class Dialoguemanager : MonoBehaviour
             else if (curResponseTracker == 3 && npc.playerDialogue.Length >= 3 )
             {
                 playerResponse.text = npc.playerDialogue[3];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[4];
                 }
@@ -94,7 +94,7 @@ public class Dialoguemanager : MonoBehaviour
             else if (curResponseTracker == 4 && npc.playerDialogue.Length >= 4 )
             {
                 playerResponse.text = npc.playerDialogue[4];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[5];
                 }
@@ -102,7 +102,7 @@ public class Dialoguemanager : MonoBehaviour
             else if (curResponseTracker == 5 && npc.playerDialogue.Length >= 5 )
             {
                 playerResponse.text = npc.playerDialogue[5];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[6];
                 }
@@ -110,7 +110,7 @@ public class Dialoguemanager : MonoBehaviour
             else if (curResponseTracker == 6 && npc.playerDialogue.Length >= 6 )
             {
                 playerResponse.text = npc.playerDialogue[6];
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     npcDialogue.text = npc.dialogue[7];
                 }
