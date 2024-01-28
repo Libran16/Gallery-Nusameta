@@ -8,7 +8,6 @@ public class robot : MonoBehaviour
 
     bool audioPlayed = false;
     float distance;
-    float curResponseTracker = 0;
 
     public GameObject player;
 
